@@ -25,5 +25,5 @@ a {display: block;}
 .classprvni {margin-bottom: 100px;}
 .lorem {background-color: coral; width: 150px; height: 150px; overflow: hidden;}
 /* urcuje co dela obsah kdyz se nevejde do elemtnutu*/
-.box {border: 2px solid rebeccapurple; width: 20%; float: center;}
+.box {border: 2px solid rebeccapurple; width: 20%; float: right;}
 
