@@ -12,11 +12,13 @@ a {background-color: rgba(255, 217, 0, 0.37);}
     padding-top: 100px; padding-left: 500px; padding-right: 150px; padding-bottom: 100px;
     margin-top: 100px; margin-bottom: 100px; margin-left: 100px; margin-right: 100px;}
 .class3 {margin: 100px 100px 100px 200px; padding: 100px 100px 150px 80px;}
-a:link {color: darkorange;}
-a:visited {color: rgb(36, 11, 49);}
+a:link {color: darkorange; text-decoration: none;}
+a:visited {color: rgb(172, 54, 235);}
 a:hover {color: rgb(34, 236, 16);}
 a:active {color: rgb(57, 225, 255);}
 /*komentar */
-a:link {text-decoration: none;}
+
 ul {list-style-type: none; margin: 0px; padding: 0px; }
-li {display: inline; margin: 50px; border: 5px dotted black; padding: 10px;}
+li {display: inline; border: 2px dotted black; padding: 20px; }
+a {display: block;}
+/* inline elementum nejde nastavit margin*/
