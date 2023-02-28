@@ -23,6 +23,7 @@ li {display: inline; border: 2px dotted black; padding: 20px; }
 a {display: block;}
 /* inline elementum nejde nastavit margin*/
 .classprvni {margin-bottom: 100px;}
-.lorem {background-color: coral; width: 150px; height: 150px; overflow: scroll;}
+.lorem {background-color: coral; width: 150px; height: 150px; overflow: hidden;}
 /* urcuje co dela obsah kdyz se nevejde do elemtnutu*/
+.box {border: 2px solid rebeccapurple; width: 20%; float: center;}
 
