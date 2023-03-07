@@ -1,11 +1,11 @@
+/*
 h1{color: blue;}
 #id1{background-color: rgba(205, 92, 92, 0.308);}
 .class1 {color: fuchsia;}
 a {background-color: rgba(255, 217, 0, 0.37);}
 .class2.class3 {background-color: rgba(204, 241, 148, 0.705);}
 .class2.class3 p {color: darksalmon;}
-/*.class1 {background-image: url(velryba.jpg);}*/
-/*.class1 {background-repeat: no-repeat;}*/
+
 #id1 {border-style: dotted; border-width: 5px; border-color: rgba(255, 238, 0, 0.932);}
 .class5 {border: 3px blueviolet double;}
 .class6 {border: 5px;border-style: groove; background-color: rgb(177, 219, 255);
@@ -16,14 +16,24 @@ a:link {color: darkorange; text-decoration: none;}
 a:visited {color: rgb(172, 54, 235);}
 a:hover {color: rgb(34, 236, 16);}
 a:active {color: rgb(57, 225, 255);}
-/*komentar */
+
 
 ul {list-style-type: none; margin: 0px; padding: 0px; }
 li {display: inline; border: 2px dotted black; padding: 20px; }
 a {display: block;}
-/* inline elementum nejde nastavit margin*/
+
 .classprvni {margin-bottom: 100px;}
 .lorem {background-color: coral; width: 150px; height: 150px; overflow: hidden;}
-/* urcuje co dela obsah kdyz se nevejde do elemtnutu*/
-.box {border: 2px solid rebeccapurple; width: 20%; float: right;}
 
+.box {border: 2px solid rebeccapurple; width: 20%; float: right;}
+*/
+
+ul {list-style-type: none;
+    background-color: rgb(44, 42, 42);
+    overflow: hidden;
+}
+
+li{float: left;
+    padding: 20px;
+    
+}
