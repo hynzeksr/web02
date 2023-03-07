@@ -28,6 +28,8 @@ a {display: block;}
 .box {border: 2px solid rebeccapurple; width: 20%; float: right;}
 */
 
+*{margin: 0px;}
+
 ul {list-style-type: none;
     background-color: rgb(44, 42, 42);
     overflow: hidden;
@@ -35,5 +37,16 @@ ul {list-style-type: none;
 
 li{float: left;
     padding: 20px;
-    
+
+}
+
+a{font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li:hover{background-color: rgb(182, 69, 69);}
+
+.dropdown-content{
+    display: none;
 }
